@@ -1,0 +1,94 @@
+https://www.youtube.com/watch?v=uL0-6kfiH3g
+Short Summary for [End to End Data Analytics Project (Python + SQL)](https://www.youtube.com/watch?v=uL0-6kfiH3g) by [Merlin](https://merlin.foyer.work/)
+
+ "Data Analytics Project Using Python and SQL: Clean, Load, Analyze, and Solve Questions from Kaggle API Dataset"
+
+- End to end data analytics project using Python and SQL.
+
+- Downloading and setting up the dataset in SQL plus Python
+
+- Fixing unknown and not available values in ship mode column
+
+- An alternative method of renaming columns in a DataFrame is discussed
+
+- Convert 'order date' column to date format
+
+- Dropping unnecessary columns from the dataset
+
+- Creating and modifying data analytics tables using Python and SQL.
+
+- Data extraction, transformation, and loading (ETL) process with Python and SQL
+
+- Ranking and grouping data by region and product ID
+
+- Extracting top five products by sales for different regions
+
+- Aggregate and sum data by month to get one row for each month
+
+- Formatting date in YYmm for data analysis
+
+- Calculating growth percentage for sales data.
+
+- Building a data analytics project using Python and SQL
+
+---------------------------------
+
+Detailed Summary for [End to End Data Analytics Project (Python + SQL)](https://www.youtube.com/watch?v=uL0-6kfiH3g) by [Merlin](https://merlin.foyer.work/)
+
+ "Data Analytics Project Using Python and SQL: Clean, Load, Analyze, and Solve Questions from Kaggle API Dataset"
+
+End to end data analytics project using Python and SQL.
+- Using kaggle API to download dataset and cleaning data in pandas.
+- Loading data into SQL server and solving SQL questions based on the data.
+
+Downloading and setting up the dataset in SQL plus Python
+- Obtaining the link of the dataset and using the kaggle API for downloading
+- Setting up Anaconda Navigator and Jupyter notebook for Python work and executing required commands
+
+Fixing unknown and not available values in ship mode column
+- Identify distinct values in the ship mode column
+- Use Na values option in Pandas to treat 'unknown' and 'not available' as null
+
+An alternative method of renaming columns in a DataFrame is discussed
+- Using 'DF.rename' method with a JSON to specify renaming columns individually
+- Instead of passing all 15 columns individually, extract all columns, convert to lower case, and replace spaces with underscores
+
+Convert 'order date' column to date format
+- Using pandas' to_datetime method to convert 'order date' column to date format with specified format YYmmdd
+- Ensure the converted column shows data type as 'datetime' by assigning it back to the original data set
+
+Dropping unnecessary columns from the dataset
+- Using the 'inplace=True' argument in Pandas to drop columns from the dataset without returning anything
+- Preparing to load the cleaned data into SQL Server using SQL Alchemy
+
+Creating and modifying data analytics tables using Python and SQL.
+- The process of creating a table with appropriate data types and appending data to it.
+- Addressing issues with data types and the best practices for modifying tables.
+
+Data extraction, transformation, and loading (ETL) process with Python and SQL
+- Creating a table and loading data using 'append' command instead of 'replace'
+- Discussing data types, primary key, and loading data into SQL Server
+
+Ranking and grouping data by region and product ID
+- Using Group by and Order by to sort data by reason and sales
+- Generating rank for top 5 products in each reason using window functions
+
+Extracting top five products by sales for different regions
+- The query retrieves top five products by sales for Central, East, South, and West regions
+- Utilizing year and month data for 2022 and 2023 to perform a month-over-month sales growth comparison
+
+Aggregate and sum data by month to get one row for each month
+- Group by month and year to aggregate sales data
+- Determine month with highest sales for each category by year month format
+
+Formatting date in YYmm for data analysis
+- Formatting date as YYmm for easy data aggregation
+- Performing data aggregation by order month and year, summing sales by category
+
+Calculating growth percentage for sales data.
+- Using the formula - (sales of 2023 - sales of 2022) / sales of 2022 * 100.
+- Applying the growth percentage in order by filtering for highest growth subcategory.
+
+Building a data analytics project using Python and SQL
+- Using Python to extract and analyze data
+- Using SQL to query and manipulate the data
